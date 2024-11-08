@@ -1,0 +1,317 @@
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+   'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+   sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+a {
+  text-decoration: none;
+}
+.navMain {
+background: rgb(0,0,0);
+background: rgb(59,60,32);
+background: rgb(59,60,32);
+background: rgb(157,92,13);
+background: linear-gradient(90deg, rgba(157,92,13,1) 13%, rgba(229,137,10,1) 30%, rgba(229,137,10,1) 78%, rgba(247,208,138,1) 94%);
+}
+
+.imgCeo{
+  border-radius: 50%;
+  width: 80px;
+}
+
+.first::first-letter {
+  font-size: 40px;
+  color: black;
+  font-weight: bold;
+}
+
+.card-1{
+  background-image: url(./images/image-10-copyright-840x560.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px}
+.card-2{
+  background-image: url(./images/image-14-copyright-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px  
+}
+.card-3{
+  background-image: url(./images/image-9-copyright-840x560.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px  
+
+}
+.BtnCard{
+  background:  transparent;
+  transition: all 1s ease;
+}
+.BtnCard:hover{
+ 
+  background: linear-gradient(90deg, rgba(157,92,13,1) 13%, rgba(229,137,10,1) 30%, rgba(229,137,10,1) 78%, rgba(247,208,138,1) 94%);
+}
+
+.cardMain{
+transition: all 0.5s ease;
+}
+.cardMain:hover{
+  transform: translateY(-40px);
+}
+.details{
+  border-right: 1px solid rgb(177, 177, 177);
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  padding: 3px;
+}
+
+
+/* CSS */
+.button-52 {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  touch-action: manipulation;
+}
+
+.button-52:after {
+  content: "";
+  background-color: #ffe54c;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.button-52:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+/* @media (min-width: 768px) {
+  .button-52 {
+    padding: 13px 50px 13px;
+  }
+} */
+
+.fixed-bg{
+    background-image: url("./images/download1.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity:  0.70;
+}
+.cardParent{
+  position: relative;
+  width: 500px;
+}
+.cardFly{
+  background-color: rgb(28, 28, 44);
+  color: white;
+  padding: 3px;
+  min-height: 250px;
+  position: absolute;
+  top: -75px;
+}
+/* @media (max-width:991px){
+  .cardFly{
+    display: none;
+  } */
+
+.line-1{
+  width: 75%;
+  background-color: #af1a1a;
+  height: 5px;
+}
+.Logistics{
+  color: rgb(42, 42, 65);
+}
+
+
+.button-24 {
+  background: #FF4742;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.button-24:hover,
+.button-24:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+.button-24:active {
+  opacity: .5;
+}
+
+.FooterMain{
+background-color: rgb(66, 63, 59);
+color: white;
+height: 70px;
+bottom: 0%;
+}
+
+.img{
+  border-radius: 50px;
+  width: 100px;
+}
+
+
+
+.client-review-slide {
+  padding: 20px;
+  text-align: center;
+}
+
+.slick-dots li button:before {
+  color: #fff;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #00bcd4;
+}
+
+.btnnt{
+  background-color: transparent;
+  border: 0px;
+  font-weight: 400;
+  border-bottom: 5px solid orangered;
+}
+
+/* index.css */
+
+/* Zoom effect on image hover */
+.card-image-zoom {
+  transition: transform 0.3s ease;
+}
+
+.card-image-zoom:hover {
+  transform: scale(1.1);
+}
+
+/* Social icons at the bottom of the card */
+.social-icons {
+  display: flex;
+  justify-content: center;}
+
+/* Assuming the parent container has a fixed height, adjust these values as needed */
+.chat-icon {
+  width: 50px; /* Adjust the width as needed */
+  height: 50px; /* Adjust the height as needed */
+  cursor: pointer;
+  /* Add other styling properties as desired */
+}
+.card{
+  max-width: 400px;
+  min-height: 400px;
+}
+
+
+.button-5 {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #fa6400;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.button-5:hover,
+.button-5:focus {
+  background-color: #fb8332;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button-5:hover {
+  transform: translateY(-1px);
+}
+
+.button-5:active {
+  background-color: #c85000;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
+.sticky-button {
+  position: fixed;
+  bottom: 100px;
+  right: 30px;
+  padding: 10px 15px;
+  border: none;
+  background-color: #c85000;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.off{
+  background-image: url(./images/pexels-photo-1834399.jpeg);
+  /* background-position: ; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+
